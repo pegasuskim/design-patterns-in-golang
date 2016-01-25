@@ -9,7 +9,7 @@ func TestAbstractFactory(t *testing.T) {
 	factory := MdFactory{}
 
 	usYahoo := factory.CreateLink("Yahoo!", "http://www.yahoo.com")
-	jaYahoo := factory.CreateLink("Yahoo!Japan", "http://www.yahoo.co.kr")
+	jaYahoo := factory.CreateLink("Yahoo! korea", "http://www.yahoo.co.kr")
 
 	tray := factory.CreateTray("Yahoo!")
 	tray.AddToTray(usYahoo)
